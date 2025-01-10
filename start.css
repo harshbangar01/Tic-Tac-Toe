@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/tic\ tac\ toe\ wallpapper.jpg);
+    background-size: cover;
+}
+
+.btn {
+    font-size: xx-large;  
+    height: 60px;
+    width: 300px;
+    background-color:rgba(128, 0, 128, 0.438);
+    backdrop-filter: 10px;
+    display: flex;
+    position: relative;
+    left: 529px;
+    top: 500px;
+    justify-content: center;
+    padding-top: 8px;
+    transition: transform 1s ease-in-out 0.2s;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 5px rgba(90, 34, 139, 1);
+    border-radius: 15px;
+}
+
+/*.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 5px rgba(90, 34, 139, 1);
+}*/
+    
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#startMusic {
+    border-radius: 30px;
+    background-image: url(https://cdn-icons-png.flaticon.com/128/7566/7566380.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    width:40px;
+    position: relative;
+    bottom: 29px;
+    left: 21px;
+}  
+
+.btn {
+    background: linear-gradient(90deg, #9945e9, #391770);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    box-shadow: 0 0 15px rgba(128, 0, 128, 0.438), 0 0 30px rgba(128, 0, 128, 0.438);
+    animation: pulse 1.5s infinite;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(90deg, #470f7c, #311957);
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(128, 0, 128, 0.438), 0 0 40px rgba(128, 0, 128, 0.438);
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      box-shadow: 0 0 15px rgba(66, 31, 88, 0.6), 0 0 30px rgba(160, 105, 248, 0.4);
+    }
+    50% {
+      box-shadow: 0 0 25px rgba(169, 8, 233, 0.8), 0 0 50px rgba(145, 12, 185, 0.6);
+    }
+  }

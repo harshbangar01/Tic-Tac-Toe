@@ -1,0 +1,139 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+    background-image: url(/game\ wall.jpg);
+    text-align: center;
+    background-size: cover;
+    height: 641px;
+}
+
+.container {
+height: 80vh;
+width: 80vb;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(255, 255, 255, 0.158);
+backdrop-filter: 10px;
+border-radius: 40px;
+margin-left: 430px;
+padding-bottom: 15px;
+}
+
+.game {
+    height: 60vmin;
+    width: 40vvmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4.8vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: rgba(0, 0, 0, 0.39);
+    backdrop-filter: 10px;
+}
+
+#restart-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: slateblue;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    /* margin-right:1000px; */
+    display: flex;
+    position: relative;
+    left: 120px;
+    bottom: 50px;
+}
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: purple;
+    font-size: xxx-large;
+    display: inline-flex;
+    position: relative;
+    left: 180px;
+}
+
+main {
+    width: 986px;
+    height: 635px;
+}
+
+.glow-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .glow-button:hover {
+    box-shadow: 0 0 20px 5px rgba(106, 90, 205, 1); /* Glowing green effect */
+    transform: scale(1.05); /* Slightly enlarge button */
+  }
+
+  .start {
+    background-color: royalblue; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .start:hover {
+    box-shadow: 0 0 20px 5px rgba(106, 90, 205, 1); /* Glowing green effect */
+    transform: scale(1.05); /* Slightly enlarge button */
+  }
+
+/* 
+  #music{
+    border-radius: 30px;
+    background-color: aliceblue;
+    background-image: url(https://cdn-icons-png.flaticon.com/128/7566/7566380.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    width:40px;
+    position: relative;
+    bottom: 600px;
+    left: 21px;
+  } */
