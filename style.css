@@ -79,7 +79,7 @@ padding-bottom: 15px;
 h1 {
     margin-top: 10px;
     margin-bottom: 15px;
-    color: purple;
+    color: white;
     font-size: xxx-large;
     display: inline-flex;
     position: relative;
@@ -93,7 +93,7 @@ main {
 
 .glow-button {
     background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
+    color: rgb(255, 255, 255); /* White text */
     border: none;
     padding: 15px 30px;
     font-size: 16px;
