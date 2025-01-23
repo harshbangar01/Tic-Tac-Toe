@@ -90,10 +90,3 @@ const checkWinner = () => {
 newGameBtn.addEventListener("click", resetGame);
 resetBtn.addEventListener("click", resetGame);
 
-// const Music = document.getElementById('music');
-//   const audioClip = document.getElementById('audioclip');
-
-//   Music.addEventListener('click', () => {
-//     audioClip.play();
-//     Music.style.display = 'none'; // Hide the button after starting music
-//   });
