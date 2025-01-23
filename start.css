@@ -78,3 +78,53 @@ a {
       box-shadow: 0 0 25px rgba(169, 8, 233, 0.8), 0 0 50px rgba(145, 12, 185, 0.6);
     }
   }
+
+  /* making start responsive */
+
+  @media only screen and (max-width: 455px){
+    body{
+      /* display: flex;
+      justify-content: flex-start;
+      align-content: flex-start; */
+      background-image: url(https://th.bing.com/th/id/OIP.5lt0W1gWjUx7QRpF94XkwAAAAA?rs=1&pid=ImgDetMain);
+    }
+
+    .btn{
+      display: flex;
+      position: absolute;
+      left: 30px;
+      top: 459px;
+      background: linear-gradient(90deg, #e6fa77, #ddec0d);
+      border: none;
+      color: white;
+      font-size: 2rem;
+      padding: 15px 30px;
+      border-radius: 50px;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: 0.3s ease;
+      box-shadow: 0 0 15px rgba(164, 204, 22, 0.438), 0 0 30px rgba(127, 199, 12, 0.438);
+      animation: Pulse 1.5s infinite;
+     
+    }
+
+    .btn:hover {
+      background: linear-gradient(90deg, #470f7c, #311957);
+      transform: scale(1.1);
+      box-shadow: 0 0 20px rgba(116, 18, 173, 0.438), 0 0 40px rgba(128, 0, 128, 0.438);
+    }
+
+    @keyframes Pulse {
+      0%, 100% {
+        box-shadow: 0 0 15px rgba(189, 207, 22, 0.6), 0 0 30px rgba(132, 134, 15, 0.4);
+      }
+      50% {
+        box-shadow: 0 0 25px rgba(133, 197, 29, 0.8), 0 0 50px rgba(216, 230, 28, 0.6);
+      }
+    }
+
+    #startMusic {
+      position: absolute;
+      top: 22px;
+    }
+  }
